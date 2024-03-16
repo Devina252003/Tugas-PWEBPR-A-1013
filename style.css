@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header .menu-navigasi{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    background-color: #D9D9D9;
+}
+
+header .menu-navigasi a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+main .judul{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.konten-utama {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-top: -20px;
+}
+
+.konten-utama .kontainer-pertama{
+    display: flex;
+    flex-direction: column;
+}
+
+.konten-utama .kontainer-pertama .tentara{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.konten-utama .kontainer-pertama .tentara .keterangan-tentara{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.konten-utama .kontainer-pertama .tentara .keterangan-tentara h5{ font-size: 20px; font-weight: 600;}
+
+.konten-utama .kontainer-pertama .tentara .keterangan-tentara p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.konten-utama .kontainer-pertama .tentara .keterangan-tentara a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 25px;
+    margin-bottom: -20px;
+    padding: 3px; 
+    width: 200px;
+    background-color: #399349;
+    color: white;
+}
+
+.konten-utama .kontainer-pertama .tentara img{
+    height: 180px;
+    width: 180px;
+    margin-top: -15px;
+}
+
+.konten-utama .kontainer-pertama .tentara .background-tentara{
+    height: 120px;
+    width: 400px;
+    z-index: -1;
+    top: 165px;
+    border-radius: 15px;
+    background-color: #D5FFDD;
+    position: absolute;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .tukang{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .tukang a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 4px;
+    width: 110px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left : -70px;
+    margin-top: -35px;
+    color: white;
+    background-color: #E29A00;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .tukang img{
+    height: 120px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left : -70px;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .tukang .background-tukang{
+    margin-left : -70px;
+    height: 130px;
+    width: 170px;
+    top: 310px;
+    z-index: -1;
+    border-radius: 25px;
+    background-color: #FFF4DC;
+    position: absolute;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .pramugari{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -70px;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .pramugari a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 4px;
+    width: 110px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: -35px;
+    color: white; 
+    background-color: #FF5573;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .pramugari img{
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .pramugari .background-pramugari{
+    height: 130px;
+    width: 170px;
+    position: absolute;
+    top: 460px;
+    z-index: -1;
+    border-radius: 25px;
+    background-color: #FFCED7;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .fotografer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 110%;
+    margin-top: -10px;
+    margin-left: 45px;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .fotografer h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .fotografer p{
+    font-size: 12px;
+    width: 70%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .fotografer a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    width: 130px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 30px;
+    padding: 5px;
+    color: white;
+    background-color: #3279AF;
+}
+
+.konten-utama .kontainer-pertama .kontainer-lain .fotografer img{height: 120px; margin-left: 35px;}
+
+.konten-utama .kontainer-pertama .kontainer-lain .fotografer .background-fotografer{
+    height: 280px;
+    width: 200px;
+    position: absolute;
+    top: 310px;
+    z-index: -1;
+    border-radius: 25px;
+    margin-left: 30px;
+    background-color: #E2F2FF;
+}
+
+.kontainer-kedua{
+    margin-top: 45px;
+    margin-left: -60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.sub-kontainer1{
+    height: 280px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #F4F4F4;
+}
+
+.sub-kontainer2{
+    height: 120px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 15px;
+    background-color: #F4F4F4;
+}
+
+.sub-kontainer1 .dokter{
+    height: 60px;
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid #D8D6C1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+.sub-kontainer1 .pilot{
+    height: 60px;
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid #D8D6C1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+.sub-kontainer1 .ilmuan{
+    height: 60px;
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid #D8D6C1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+.sub-kontainer2 .pembalap{
+    height: 80px;
+    width: 180px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sub-kontainer2 .astronot{
+    height: 80px;
+    width: 180px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dokter .keterangan-dokter a{
+    text-decoration: none;
+    font-size: 13px;
+    padding: 2px 40px 2px 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: #D8D6C1;
+}
+
+.pilot .keterangan-pilot a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2px 40px 2px 40px;
+    color: white; 
+    background-color: #D8D6C1;
+}
+
+.ilmuan .keterangan-ilmuwan a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    padding: 2px 40px 2px 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: #D8D6C1;
+}
+
+.dokter, .pilot, .ilmuan, img{height: 50px;}
+
+.dokter .keterangan-dokter {padding-left: 15px;}
+
+.pilot .keterangan-pilot {padding-left: 15px;}
+
+.ilmuan .keterangan-ilmuwan {padding-left: 15px;}
+
+.pembalap img{height: 80px;}
+
+.astronot img{height: 80px;}
+
+.pembalap .keterangan-pembalap{ display: flex; flex-direction: column;}
+
+.astronot .keterangan-astronot{ display: flex; flex-direction: column;}
+
+.pembalap .keterangan-pembalap a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px 5px 8px 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #D8D6C1;
+}
+
+.astronot .keterangan-astronot a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px 5px 8px 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #D8D6C1;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1280px) {
+
+    header .nav-container{
+        position: fixed;
+        overflow: hidden;
+        bottom: 0;
+        width: 100vw;
+    }
+
+    .konten-utama{ width: 100vw; flex-direction: column;}
+
+    .kontainer-pertama{ width: 100vw; flex-direction: column;}
+
+    .kontainer-kedua{ width: 100vw; flex-direction: column;}
+
+    .konten-utama .kontainer-pertama .tentara{
+        width: 100vw;
+        margin-top: 60px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .konten-utama .kontainer-pertama .tentara .keterangan-tentara{ justify-content: center; align-items: center;}
+    .konten-utama .kontainer-pertama .tentara .background-tentara{
+        position: none;
+        width: 70%;
+        height: 210px;
+    }
+    .konten-utama .kontainer-pertama .tentara .keterangan-tentara p{ margin-bottom: 0px;}
+    .konten-utama .kontainer-pertama .tentara .keterangan-tentara a{
+        margin-bottom: 0px;
+        top : -80px;
+        position: relative;
+    }
+
+    .konten-utama .kontainer-pertama .kontainer-lain{ flex-direction: column;}
+    .konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua{ flex-direction: column; margin-left: 0px;}
+    .konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .tukang{ margin-bottom: 0px; margin-top: 0px;}
+
+    .konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .tukang a{
+        padding: 10px;
+        width: 200px;
+        margin-left : 0px;
+        margin-top: -10px;
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .tukang img{
+        height: 180px;
+        width: 180px;
+        margin-top: 0px;
+        margin-left : 0px;
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .tukang .background-tukang{
+        margin-left : 0px;
+        height: 230px;
+        width: 70%;
+        top: 400px;
+        background-color: #FFF4DC;
+    }
+    
+    .konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .pramugari{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .pramugari a{
+        padding: 10px;
+        width: 200px;
+        margin-top: -10px;  
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .pramugari img{
+        height: 180px;
+        width: 180px;
+        margin-top: 0px;
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .kontainer-lainkedua .pramugari .background-pramugari{
+        height: 230px;
+        width: 70%;
+        top: 655px;
+    }
+
+    .konten-utama .kontainer-pertama .kontainer-lain .fotografer{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .fotografer h5{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .fotografer p{
+        width: 50%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .fotografer a{
+        width: 200px;
+        margin-left: 0px;
+        top: -100px;
+        position: relative;
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .fotografer img{
+        height: 180px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .konten-utama .kontainer-pertama .kontainer-lain .fotografer .background-fotografer{
+        height: 230px;
+        width: 70%;
+        top: 960px;
+        margin-left: 0px;
+    }
+
+    .kontainer-kedua{
+        margin-top: 10px;
+        margin-left: 0px;
+        gap: 30px;
+    }
+    
+    .sub-kontainer1{
+        height: auto;
+        width: 70%;
+        gap: 20px;
+        background-color: transparent;
+    }
+    
+    .sub-kontainer2{
+        height: auto;
+        width: 70%;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 70px;
+        gap: 20px;
+        background-color: transparent;
+    }
+    
+    .sub-kontainer1 .dokter{
+        height: 230px;
+        width: 100%;
+        flex-direction: column;
+        padding: 15px;
+        background-color: #E9E8E2;
+    }
+    
+    .sub-kontainer1 .pilot{
+        height: 230px;
+        width: 100%;
+        flex-direction: column;
+        padding: 15px;
+        background-color: #E9E8E2;
+    }
+    
+    .sub-kontainer1 .ilmuan{
+        height: 230px;
+        width: 100%;
+        padding: 15px;
+        flex-direction: column;
+        background-color: #E9E8E2;
+    }
+
+    .sub-kontainer2 .pembalap{
+        height: 230px;
+        width: 100%;
+        flex-direction: column;
+        background-color: #FFDBC5;
+    }
+    
+    .sub-kontainer2 .astronot{
+        height: 230px;
+        width: 100%;
+        flex-direction: column;
+        background-color: #8FC5ED;
+    }
+    
+    .dokter, .pilot, .ilmuan, img{
+        height: 180px;
+        margin-bottom: 0px;
+    }
+
+    .dokter h5{visibility: hidden; position: absolute; }
+    .dokter .keterangan-dokter { padding-left: 0px; text-align: center;}
+    .dokter .keterangan-dokter a{font-size: 17px; padding: 5px 50px 5px 50px;}
+
+    .pilot h5{ visibility: hidden; position: absolute;}
+    .pilot .keterangan-pilot { padding-left: 0px; text-align: center; }
+    .pilot .keterangan-pilot a{ font-size: 17px; padding: 5px 50px 5px 50px; }
+
+    .ilmuan h5{ visibility: hidden; position: absolute;}
+    .ilmuan .keterangan-ilmuwan {padding-left: 0px; text-align: center;}  
+    .ilmuan .keterangan-ilmuwan a{ font-size: 17px; padding: 5px 50px 5px 50px;}
+    
+    .pembalap img{
+        height: 180px;
+        margin-top: 20px;
+    }
+    
+    .astronot img{
+        height: 180px;
+        margin-top: 30px;
+    }
+    
+    .pembalap .keterangan-pembalap{ display: flex;flex-direction: column; }
+    .pembalap .keterangan-pembalap a{
+        font-size: 17px;
+        margin-top: -15px;
+        padding: 5px 50px 5px 50px;
+        border-radius: 25px;
+        background-color: #E36415;
+    }
+    .keterangan-pembalap h5{visibility: hidden;position: absolute; }
+    
+    .astronot .keterangan-astronot{display: flex; flex-direction: column; }
+    .astronot .keterangan-astronot a{
+        font-size: 17px;
+        margin-top: -25px;
+        padding: 5px 50px 5px 50px;
+        border-radius: 25px;
+        background-color: #275E87;
+    }
+    .keterangan-astronot h5{visibility: hidden; position: absolute;}
+}
